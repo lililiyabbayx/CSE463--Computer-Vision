@@ -6,6 +6,14 @@ This repository contains my personal experiments on the "Lung & Colon Cancer Dat
 **Short Architecture Description:**  
 You can find the architecture and implementation details in this file(MRI): [20-10 ConvNeXt-V2 KAN Notebook](https://github.com/lililiyabbayx/Computer-Vision-Project-based-on-KAN-and-Assignments/blob/main/20-10convnext-v2-kan-100ep.ipynb)  
 *Description: Here, I will provide a summary of the architecture and key points from the notebook.*
+# Summary Results
+
+| Model                | Test Loss | Test Accuracy | Test Precision | Test Recall | Test F1 Score |
+|----------------------|-----------:|---------------:|----------------:|-------------:|---------------:|
+| convnextv2_se_kan    | 0.082185   | 0.974085       | 0.973709        | 0.973070     | 0.973245       |
+| convnextv2_kan       | 0.053409   | 0.984756       | 0.984538        | 0.983366     | 0.983717       |
+| convnextv2_baseline  | 0.070767   | 0.981707       | 0.981618        | 0.980033     | 0.980486       |
+| convnextv2_se        | 0.082423   | 0.978659       | 0.978121        | 0.977167     | 0.977484       |
 ## Architecture Overview
 
 ### 1️. ConvNeXt-V2 Baseline Block
